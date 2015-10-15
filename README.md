@@ -28,6 +28,18 @@ Build checkdirs because the Makefile symlinks some .c files from SDK in the firs
 Flash using
 
     $ make flash
+    
+## Wiring it up ##
+
+     | ESP-12  | RF24 |
+     |---------+------|
+     | HSPICLK | SCLK |
+     | HSPIQ   | MISO |
+     | HSPID   | MOSI |
+     | GPIO4   | CE   |
+     | GPIO5   | CSN  |
+
+The CE, CSN can be swapped and the code changed appropriately.
 
 ## Thanks ##
 
