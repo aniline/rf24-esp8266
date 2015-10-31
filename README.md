@@ -41,6 +41,10 @@ Flash using
 
 The CE, CSN can be swapped and the code changed appropriately.
 
+## Arduino IDE ##
+
+This port is **not** meant for Arduino IDE. You could try out the mildly tweaked version the original maniacbug's version here: https://github.com/aniline/RF24 
+
 ## Thanks ##
 
 * https://github.com/maniacbug/RF24
